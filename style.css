@@ -1,0 +1,675 @@
+@media only screen and (max-width: 480px){
+    body{
+        margin: 0;
+        padding: 0;
+        background: #FAF3F0;
+        font-family: sans-serif;
+    }
+
+    .lightgreen{
+        color: #7aba2e;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    /**header**/
+header{
+    width: 100%;
+    background-color:  #FAF3F0;
+}
+
+header div{
+    float: left;
+    width: 33%;
+}
+
+header img{
+    margin-top: 2%;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+header h1{
+    margin: 11% 0%;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+header .wrapper-icons{
+    width: 20%;
+    margin: 9% 3%;
+    text-align: center;
+}
+
+/**icons**/
+.material-symbols-outlined { 
+    margin: 5% 4%;
+    font-size: 5vw;
+    float: right;
+    transition: 0.5s;
+    width: 20%;
+  }
+  
+  .material-symbols-outlined:hover{ 
+      opacity: 70%;
+  }
+
+  
+  .wrapper-social-icons{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.wrapper-social-icons .social-icons{
+    font-size: 300%;
+    width: 10%;
+    color: black;
+    transition: opacity 0.5s;
+}
+
+.social-icons:hover{
+  opacity: 70%;
+}
+
+.why-us-icons{
+    float: none;
+    color: #7aba2e;
+    font-size: 5vw;
+}
+
+/**navigation**/
+  nav{
+    font-size: 2.3vw;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    background-color: #dc7d3f;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    opacity: 90%;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+/**uitgelichte producten**/
+
+.products{
+    margin: 5% auto;
+    text-align: center;
+}
+
+.products h3{
+    font-size: 2.5vw;
+}
+
+.wrapper-product-cards .product-card{
+    padding: 1%;
+    display: inline-block;
+    width: 30%;
+    font-size: 2vw;
+}
+
+.product-card img{
+    width: 100%
+}
+
+.product-card button{
+    padding: 8px 10px;
+    background-color: #dc7d3f;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 2.3vw;
+}
+
+.product-card button:hover{
+    box-shadow: 2px 2px 10px black;
+
+}
+
+/**waarom ons**/
+.wrapper-why-us{
+    width: 70%;
+    font-size: 1.5vw;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.wrapper-why-us h3{
+    font-size: 2.5vw;
+}
+
+.wrapper-why-us .card{
+    float: left;
+    width: 30%;
+    padding: 1.6%;
+    text-align: center;
+}
+
+/**footer**/
+
+footer{
+    padding: 1% 0%;
+    background-color: #dc7d3f;
+    color: black;
+    width: 100%;
+    font-size: 2vw;
+}
+
+footer section{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+footer .last-section{
+    border: none;
+    padding: 3% 0%;
+}
+
+
+footer section h3{
+    text-align: center;
+}
+
+footer section ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer section ul li{
+    text-align: center;
+    padding: 10px;
+}
+
+footer section ul li a{
+    color: black;
+}
+
+footer section ul li a:hover{
+    opacity: 70%;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+        background: #FAF3F0;
+        font-family: sans-serif;
+    }
+
+    .lightgreen{
+        color: #7aba2e;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    /**header**/
+header{
+    width: 100%;
+    background-color:  #FAF3F0;
+}
+
+header div{
+    float: left;
+    width: 33%;
+}
+
+header img{
+    margin-top: 2%;
+    margin-left: 55%;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+header h1{
+    margin: 3% 0%;
+    line-height: 5vw;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+header .wrapper-icons{
+    width: 20%;
+    margin: 3% 3%;
+    text-align: center;
+}
+
+/**icons**/
+.material-symbols-outlined { 
+    margin: 5% 4%;
+    font-size: 3.5vw;
+    float: right;
+    transition: 0.5s;
+    width: 20%;
+  }
+  
+  .material-symbols-outlined:hover{ 
+      opacity: 70%;
+  }
+
+  .wrapper-social-icons{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.wrapper-social-icons .social-icons{
+    font-size: 300%;
+    width: 20%;
+    color: black;
+    transition: opacity 0.5s;
+}
+
+.social-icons:hover{
+  opacity: 70%;
+}
+
+.why-us-icons{
+    float: none;
+    color: #7aba2e;
+    font-size: 3vw;
+}
+
+  /**Navigation**/
+
+nav{
+    font-size: 1.2vw;
+    background-color: #dc7d3f;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    opacity: 90%;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+/**uitgelichte producten**/
+
+.products{
+    margin: 5% auto;
+    text-align: center;
+}
+
+.products h3{
+    font-size: 1.5vw;
+}
+
+.wrapper-product-cards .product-card{
+    padding: 1%;
+    display: inline-block;
+    width: 30%;
+    font-size: 1.2vw;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-card button{
+    padding: 10px 12px;
+    background-color: #dc7d3f;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product-card button:hover{
+    box-shadow: 2px 2px 10px black;
+
+}
+
+/**waarom ons**/
+.wrapper-why-us{
+    width: 70%;
+    font-size: 1.5vw;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.wrapper-why-us h3{
+    font-size: 1.5vw;
+}
+
+.wrapper-why-us .card{
+    float: left;
+    width: 30%;
+    padding: 1.6%;
+    text-align: center;
+}
+
+/**footer**/
+
+footer{
+    background-color: #dc7d3f;
+    color: black;
+    width: 100%;
+    font-size: 1.4vw;
+}
+
+footer section{
+    width: 33%;
+    float: left;
+}
+
+footer section h3{
+    text-align: center;
+}
+
+footer section ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer section ul li{
+    text-align: center;
+    padding: 10px;
+}
+
+footer section ul li a{
+    color: black;
+}
+
+footer section ul li a:hover{
+    opacity: 70%;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1025px){
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FAF3F0;
+    font-family: sans-serif;
+}
+
+.lightgreen{
+    color: #7aba2e;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/**header**/
+header{
+    width: 100%;
+    background-color:  #FAF3F0;
+}
+
+header div{
+    float: left;
+    width: 33%;
+}
+
+header img{
+    margin-left: 55%;
+    border-radius: 50%;
+    width: 30%;
+    object-fit: contain;
+}
+
+header h1{
+    margin-top: 4%;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw
+}
+
+header .wrapper-icons{
+    width: 20%;
+    margin: 2% 3%;
+    text-align: center;
+}
+
+
+/**icons**/
+.material-symbols-outlined { 
+  margin: 8% 4%;
+  font-size: 3.5vw;
+  float: right;
+  transition: 0.5s;
+  width: 20%;
+}
+
+.material-symbols-outlined:hover{ 
+    opacity: 70%;
+}
+
+.wrapper-social-icons{
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+
+}
+
+.wrapper-social-icons .social-icons{
+    font-size: 300%;
+    width: 20%;
+    color: black;
+    transition: opacity 0.5s;
+}
+
+.social-icons:hover{
+  opacity: 70%;
+}
+
+.why-us-icons{
+    float: none;
+    color: #7aba2e;
+    font-size: 3vw;
+}
+
+/**Navigation**/
+
+nav{
+    font-size: 0.8vw;
+    background-color: #dc7d3f;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    opacity: 90%;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+.container{
+    margin-top: 20px;
+}
+
+/**uitgelichte producten**/
+
+.products{
+    margin: 5% auto;
+    text-align: center;
+}
+
+.products h3{
+    font-size: 1.5vw;
+}
+
+.wrapper-product-cards .product-card{
+    padding: 1%;
+    display: inline-block;
+    width: 20%;
+    font-size: 0.9vw;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-card button{
+    padding: 14px 16px;
+    background-color: #dc7d3f;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.product-card button:hover{
+    box-shadow: 2px 2px 10px black;
+
+}
+
+
+/**waarom ons**/
+.wrapper-why-us{
+    width: 50%;
+    font-size: 0.9vw;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.wrapper-why-us h3{
+    font-size: 1.5vw;
+}
+
+.wrapper-why-us .card{
+    float: left;
+    width: 30%;
+    padding: 1.6%;
+    text-align: center;
+}
+
+/**footer**/
+
+footer{
+    background-color: #dc7d3f;
+    color: black;
+    width: 100%;
+    font-size: 1vw;
+}
+
+footer section{
+    width: 33%;
+    float: left;
+}
+
+footer section h3{
+    text-align: center;
+}
+
+footer section ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer section ul li{
+    text-align: center;
+    padding: 10px;
+}
+
+footer section ul li a{
+    color: black;
+}
+
+footer section ul li a:hover{
+    opacity: 70%;
+}
+
+}
